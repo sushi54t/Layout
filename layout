@@ -1,7 +1,9 @@
 <html lang="en">
 <head>
 <title>Trinkerr</title>
-<style>
+
+
+<style>                                               /*Styling the code blocks */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +13,7 @@ body {
   border-style:solid;
 }
 
-h2 {
+h2 {                                                /*Styling the h2 block */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,7 +21,7 @@ h2 {
   
 }
 
-.circleBase {
+.circleBase {                                      /*Styling the circular element */
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -28,27 +30,27 @@ h2 {
     color: white;
      }
 
-div2 {
+div2 {                                         /*Styling the home element */
   width: 1000px;
   height: 100px;
   
   
   
-}
-div3 {
+} 
+div3 {                                           /*Styling the careers element */
   width: 100px;
   
 }
-div4 {
+div4 {                                              /*Styling the login element */
   width: 100px;
   
 }
-div5 {
+div5 {                                           /*Styling the about element */
   width: 100px;
   
 }
 
-section {
+section {                                   /*Styling the section block */
   display: flex;
   flex-direction: row;
   border:white; 
@@ -129,7 +131,7 @@ section {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px) {                                /*Using this to ensure the nav and article sections don't come over each other  */
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
