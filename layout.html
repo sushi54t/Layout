@@ -1,12 +1,198 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<title>Trinkerr</title>
+
+
+<style>                                               /*Styling the code blocks */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background: #ff726f;
+  border:white; 
+  border-width:10px; 
+  border-style:solid;
+}
+
+h2 {                                                /*Styling the h2 block */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 100px;
+  
+}
+
+.circleBase {                                      /*Styling the circular element */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: Black;
+    border: 3px solid blue;
+    color: white;
+     }
+
+div2 {                                         /*Styling the home element */
+  width: 1000px;
+  height: 100px;
+  
+  
+  
+} 
+div3 {                                           /*Styling the careers element */
+  width: 100px;
+  
+}
+div4 {                                              /*Styling the login element */
+  width: 100px;
+  
+}
+div5 {                                           /*Styling the about element */
+  width: 100px;
+  
+}
+
+section {                                   /*Styling the section block */
+  display: flex;
+  flex-direction: row;
+  border:white; 
+  border-width:10px; 
+  border-style:solid;
+  
+}
+
+nav {
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 100px;
+  
+  
+  
+}
+
+nav1 {
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px;
+  order: 1;
+  
+}
+
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+nav1 ul {
+  list-style-type: none;
+  padding: 10px;
+  justify-content: space-evenly;
+  
+}
+
+article {
+  flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background: #ff726f;
+  padding: 10px;
+  border:white; 
+  border-width:10px; 
+  border-style:solid;
+}
+
+
+footer {
+  
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+ 
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+section {
+  display: flex;
+}
+
+
+
+
+
+@media (max-width: 600px) {                                /*Using this to ensure the nav and article sections don't come over each other  */
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+</style>
+
 </head>
 <body>
+
+  <h2>
+  <div class="circleBase"></div>
+  <div2> Home </div2>
+  <div3> careers</div3>
+  <div4> Login</div4>
+  <div5> About</div5>
   
+  </h2>
+
+
+<section>
+  <nav>
+<ul>
+     <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+  <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+    </ul>
+</nav>
+  <nav1>
+<ul>
+      <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+  <li><a href="#">My board</a></li>
+      <li><a href="#">Social board</a></li>
+      <li><a href="#">Orders</a></li>
+    </ul>
+</nav1>
+  
+  
+  <article>
+    <h1>Trinkerr</h1>
+    <p>Trinkerr is india's leading social trading platform</p>
+    <p>Come and join us in the journey</p>
+    <p> Sign up now</p>
+  </article>
+  </section>
+    
+  
+
+<footer>
+  <div> Contact Us</div>
+    <div> Support</div>
+
+</footer>
+  
+
 </body>
 </html>
